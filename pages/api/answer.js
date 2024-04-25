@@ -1,4 +1,4 @@
-import { openai } from "@/lib/openai";
+import openai from "@/lib/openai";
 import { sendBadRequest, sendOk } from "@/utils/apiMethods";
 import { MAX_MEMORY } from "@/utils/constants";
 
